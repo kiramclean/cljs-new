@@ -1,0 +1,9 @@
+{:source-paths ["src"]
+ :dependencies [[binaryage/devtools "1.0.2"]]
+ :builds       {:app {:output-dir "target/"
+                      :asset-path "/js"
+                      :target     :browser
+                      :modules    {:main     {:init-fn app.main/init!}
+                                   :devtools {:after-load app.main/init!
+                                              :http-root "public"
+                                              :http-port 3000}}}}}
