@@ -1,0 +1,12 @@
+{
+  "name": "cljs-new",
+  "version": "1.0.0",
+  "description": "Create a new minimalist clojurescript project that uses shadow-cljs",
+  "main": "index.js",
+  "repository": "https://github.com/kiramclean/cljs-new",
+  "author": "Kira McLean",
+  "license": "MIT",
+  "bin": {
+    "cljs-new": "index.js"
+  }
+}
